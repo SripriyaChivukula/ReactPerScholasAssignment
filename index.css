@@ -1,0 +1,120 @@
+
+#myhead
+{
+    background-color: rgb(3, 3, 3);
+    padding-top:9px;
+    padding-bottom: 25px;;
+    height:150px;
+    font-family: 'Cinzel', serif;
+    text-align:justify; 
+   font-weight:bold;
+   font-size: 40px;
+   flex-direction: row;
+    color:white
+}
+    .flex-container
+    {
+     display: flex;
+     flex-direction: column;
+    
+    }
+    #maindiv
+    {
+        height:320px;
+        display: flex;
+        background-color: #FAACA8;
+        background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+    }
+   #animationdiv
+    {
+  width: 170px;
+  height: 170px;
+  background-color: rgb(0, 0, 0);
+  position:relative;
+  animation-name: example;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+  
+  font-family: 'Cinzel', serif;
+  font-style:italic;
+  font-weight: bold;
+  color:white
+    }
+
+#backdiv
+{
+    
+    background-image: url("./desktopphoto.webp");
+    height: 500px;
+    width:800px;
+    
+   
+}
+#mytable
+{
+    margin-left: 800px;
+    margin-top:0px;
+    width:620px;
+    height: 500px;
+    font-family: 'Cinzel', serif;
+    text-align:justify; 
+    border:5px solid black;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+
+   
+}
+@keyframes example 
+{
+  0%   {background-color:rgb(206, 186, 161); left:0px; top:0px;text-align: justify;}
+  25%  {background-color:rgb(146, 170, 177); left:1250px; top:0px;}
+  50%  {background-color:rgb(109, 160, 173); left:1250px; top:150px;}
+  75%  {background-color:rgb(63, 146, 172); left:0px; top:150px;}
+  100% {background-color:rgb(6, 77, 82); left:0px; top:0px;}
+}
+ul {
+    text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(123, 110, 136);
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight:bolder;
+  font-size: 25px;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#logo
+{
+    height:200px;
+    width:200px;
+    float:right;
+    margin-bottom: 10px;
+   
+}
+
+li a:hover {
+  background-color: #111;
+}
+th,td
+{
+    border:1px solid teal
+}
+th
+{
+    text-align:left;
+}
